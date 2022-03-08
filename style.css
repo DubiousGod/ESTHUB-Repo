@@ -1,0 +1,144 @@
+:root {
+  --text-align: center;
+}
+
+
+html {
+padding: 0px 100px;
+ /* background: url('https://images8.alphacoders.com/117/thumb-1920-1171619.jpg') 50% 50% no-repeat;*/
+}
+
+#header {
+  justify-content: space-between;
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 80px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  padding-right: 50px;
+}
+
+.icon1{
+  width: 400px;
+  height: 60px;
+  margin-left: 50px;
+}
+
+body {
+  margin-top: 92px;
+  margin-bottom: 0px;
+  background: url('https://images3.alphacoders.com/713/thumb-1920-713729.jpg') no-repeat;
+  background-size: cover;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/*.debugging {
+  outline: 1px solid red;
+}*/
+
+.nav-link {
+  margin: 50px;
+  text-decoration: none;
+  font-family: helvetica;
+  color: white;
+}
+
+.cntbod, .crd1 {
+  text-align: var(--text-align);
+  font-family: helvetica;
+}
+
+.input {
+  width: 280px;
+  height: 25px;
+  margin-bottom: 17px;
+}
+
+#submit {
+  width: 130px;
+  height: 25px;
+  text-align: right;
+  margin-bottom: 70px;
+  background-color: #ffea00;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #ffbf00;
+}
+
+.firstmain {
+  margin: 50px 100px;
+  font-family: helvetica;
+}
+
+.mg {
+  margin: 0px;
+}
+
+.boldtxt {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.video {
+  margin-top: 50px;
+  margin-left: 290px;
+  margin-right: 730px;
+}
+
+.crd1 {
+  width: 700px;
+  height: 350px;
+  margin: 10px;
+  outline: 1px solid black;
+  color: rgb(255, 87, 51);
+}
+
+.title {
+  padding: 15px;
+  height: 20px;
+  background-color: hsl(0, 0%, 90%);
+  font-weight: bold;
+}
+
+.button {
+  margin: 20px;
+  height: 35px;
+  width: 100px;
+  background-color: #ffea00;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffbf00;
+}
+
+
+footer {
+  background-color: hsl(0, 0%, 90%);
+  text-align: right;
+  font-family: helvetica;
+  padding: 20px;
+  height: 40px;
+  margin: 50px 100px 0 100px;
+}
+
+.nav-bottom {
+  margin: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 550;
+}
